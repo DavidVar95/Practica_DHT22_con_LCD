@@ -1,11 +1,11 @@
-# Practica ESP32 con DHT11
-Este repositorio muestra como podemos programar una ESP32 con el sensor DHT11.
+# Practica ESP32 con DHT22 CON LCD
+Este repositorio muestra como podemos programar una ESP32 con el sensor DHT22 y mostrar la informacion en un LCD.
 
 ## Introducción
 
 ### Descripción
 
-La ```Esp32``` la utilizamos en un entorno de adquision de datos, lo cual en esta practica ocuparemos un sensor (```DTH11```) para adquirir temperatura y humedad del entorno; Cabe aclarar que esta practica se usara un simulador llamado [WOKWI](https://https://wokwi.com/).
+La ```Esp32``` la utilizamos en un entorno de adquision de datos, lo cual en esta practica ocuparemos un sensor (```DTH22```) para adquirir temperatura y humedad del entorno Y en esta practica se añade un LCD para imprimir la informacio cadaa 1 seg; Cabe aclarar que esta practica se usara un simulador llamado [WOKWI](https://https://wokwi.com/).
 
 
 ## Material Necesario
@@ -15,6 +15,7 @@ Para realizar esta practica necesitas lo siguiente
 - [WOKWI](https://https://wokwi.com/)
 - Tarjeta ESP 32
 - Sensor DHT11
+- Pantalla LCD
 
 
 
@@ -76,11 +77,15 @@ void loop() {
 ```
 2. Instalar la libreria de **DHT sensor library for ESPx** como se muestra en la siguente imagen.
 
-![](https://github.com/DiegoJm10/PracticaDHT/blob/main/Libreria%20DHT.png?raw=true)
+![](https://raw.githubusercontent.com/DavidVar95/Practica_DHT22_con_LCD/abf0161d7d364f01ccb82441f23fd3ae766003a2/Captura%20de%20pantalla%202023-06-10%2008.02.20.png)
 
-3. Hacer la conexion de **DHT11** con la **ESP32** como se muestra en la siguente imagen.
+3. Instalar la libreria de **LiquidCrystal I2C** como se muestra en la siguente imagen.
 
-![](https://github.com/DavidVar95/EJEMPLONUM1/blob/main/EC1.png?raw=true)
+![](https://github.com/DavidVar95/Practica_DHT22_con_LCD/blob/main/Captura%20de%20pantalla%202023-06-10%2008.03.20.png?raw=true)
+
+4. Hacer la conexion de **DHT11** con la **ESP32** como se muestra en la siguente imagen.
+
+![](![Alt text](image.png))
 
 ### Instrucciónes de operación
 
@@ -90,20 +95,16 @@ void loop() {
 
 ## Resultados
 
-Cuando haya funcionado, verás los valores dentro del monitor serial como se muestra en la siguente imagen.
+Cuando haya funcionado, verás los valores dentro del monitor serial como se muestra en la siguentes imagenes.
 
-![](https://github.com/DiegoJm10/PracticaDHT/blob/main/New%20ESP32%20Project%20-%20Wokwi%20Simulator%20-%20Google%20Chrome%2008_06_2023%2011_10_20%20p.%20m..png?raw=true)
+![](https://github.com/DavidVar95/Practica_DHT22_con_LCD/blob/main/Captura%20de%20pantalla%202023-06-10%2007.53.19.png?raw=true)
 
+![](https://github.com/DavidVar95/Practica_DHT22_con_LCD/blob/main/Captura%20de%20pantalla%202023-06-10%2007.54.10.png?raw=true)
 
-
-
-## Evidencias
-
-[Video de Youtube](https://https://wokwi.com/)
 
 
 # Créditos
 
-Desarrollado por Ing. Diego Jasso Miranda
+Desarrollado por Ing. David Vargas Gonzalez
 
 - [GitHub](https://github.com/DiegoJm10)
