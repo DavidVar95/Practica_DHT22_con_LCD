@@ -14,7 +14,7 @@ Para realizar esta practica necesitas lo siguiente
 
 - [WOKWI](https://https://wokwi.com/)
 - Tarjeta ESP 32
-- Sensor DHT11
+- Sensor DHT22
 - Pantalla LCD
 
 
@@ -83,7 +83,7 @@ void loop() {
 
 ![](https://github.com/DavidVar95/Practica_DHT22_con_LCD/blob/main/Captura%20de%20pantalla%202023-06-10%2008.03.20.png?raw=true)
 
-4. Hacer la conexion de **DHT11** con la **ESP32** como se muestra en la siguente imagen.
+4. Hacer la conexion de **DHT22** con la **ESP32** como se muestra en la siguente imagen.
 
 ![](![Alt text](image.png))
 
@@ -91,7 +91,7 @@ void loop() {
 
 1. Iniciar simulador.
 2. Visualizar los datos en el monitor serial.
-3. Colocar la temperatura y humedad dando *doble click* al sensor **DHT11** 
+3. Colocar la temperatura y humedad dando *doble click* al sensor **DHT22** 
 
 ## Resultados
 
